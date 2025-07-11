@@ -1,0 +1,28 @@
+/* Style pour la navbar */
+.navbar,
+.footer {
+    background-color: #2f2f2f; /* Gris anthracite */
+}
+
+.navbar-brand,
+.nav-link,
+.footer-text {
+    color: #d2a4a4 !important; /* Gris rosé */
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #f8dada !important; /* Gris rosé clair sur hover */
+}
+
+/* Style pour le footer */
+.footer {
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Gestion de la hauteur du container principal */
+.main-container {
+    min-height: calc(100vh - 56px - 45px); /* Hauteur de l'écran moins la navbar (56px) et le footer (45px) */
+    padding-top: 15px; /* Un petit padding en haut pour un peu de respirabilité */
+}
